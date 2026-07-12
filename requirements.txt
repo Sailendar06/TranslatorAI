@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sentencepiece
+Pillow
+pytesseract
+ctranslate2
+IndicTransToolkit
+langdetect
+faster-whisper
+huggingface_hub

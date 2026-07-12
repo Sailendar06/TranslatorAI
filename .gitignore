@@ -1,0 +1,24 @@
+# models (fetched via setup_models.sh)
+models/
+voices/
+*.onnx
+*.onnx.json
+*.bin
+*.safetensors
+
+# runtime outputs
+audio_outputs/*.wav
+static/trans_img_*.jpg
+tmp_*
+
+# fonts (system-installed, not vendored)
+fonts/*.ttf
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os
+.DS_Store
